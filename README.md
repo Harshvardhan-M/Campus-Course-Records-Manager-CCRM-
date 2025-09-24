@@ -192,31 +192,6 @@ javac -d . src/edu/ccrm/*/*.java src/edu/ccrm/*/*/*.java Main.java
 java -ea Main
 ```
 
-## Syllabus Mapping
-
-### Core Java Concepts
-
-| Concept | Implementation Location | Demonstration |
-|---------|------------------------|---------------|
-| **Object-Oriented Programming** | Domain package | Classes, inheritance, polymorphism |
-| **Exception Handling** | Exception package + Services | Custom exceptions, try-catch-finally |
-| **Collections Framework** | Service layer | Lists, Maps, Sets with generics |
-| **File I/O Operations** | I/O package | NIO.2, CSV processing, backup |
-| **Multithreading** | BackupService | Thread-safe Singleton pattern |
-| **Generics** | Interfaces | Type-safe service contracts |
-| **Lambda Expressions** | Utility classes | Stream operations, comparators |
-| **Design Patterns** | Throughout | Singleton, Builder, Factory |
-
-### Advanced Topics
-
-| Topic | Implementation | Educational Value |
-|-------|----------------|-------------------|
-| **Recursion** | RecursiveUtils.java | Directory traversal algorithms |
-| **Assertions** | Main.java, validation | Design by contract principles |
-| **Regular Expressions** | Validators.java | Input validation patterns |
-| **Serialization** | Configuration | Object persistence concepts |
-| **Reflection** | Dynamic behavior | Runtime type inspection |
-
 ## Performance Considerations
 
 ### Memory Management

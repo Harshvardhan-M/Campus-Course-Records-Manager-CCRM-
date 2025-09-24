@@ -1,0 +1,11 @@
+CourseID,Title,Description,Credits,Department,Prerequisites,Semester,Year,MaxEnrollment
+CS101,Introduction to Programming,Basic programming concepts using Java,3,Computer Science,None,FALL,2024,25
+CS102,Data Structures,Advanced data structures and algorithms,3,Computer Science,CS101,SPRING,2025,20
+MATH200,Calculus I,Differential calculus and applications,4,Mathematics,None,FALL,2024,30
+MATH201,Calculus II,Integral calculus and series,4,Mathematics,MATH200,SPRING,2025,25
+PHYS150,General Physics I,Classical mechanics and thermodynamics,4,Physics,MATH200,SPRING,2025,20
+PHYS151,General Physics II,Electricity magnetism and optics,4,Physics,PHYS150,FALL,2025,20
+ENG101,English Composition,Academic writing and communication,3,English,None,FALL,2024,35
+ENG102,Literature Survey,Survey of world literature,3,English,ENG101,SPRING,2025,30
+BUS101,Introduction to Business,Fundamentals of business operations,3,Business,None,FALL,2024,40
+ENGR150,Engineering Design,Introduction to engineering design process,3,Engineering,None,FALL,2024,15

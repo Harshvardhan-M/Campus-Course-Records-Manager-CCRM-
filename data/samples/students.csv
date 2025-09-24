@@ -1,0 +1,11 @@
+ID,FirstName,LastName,Email,BirthDate,Major
+S2024001,John,Doe,john.doe@college.edu,2000-05-15,Computer Science
+S2024002,Jane,Smith,jane.smith@college.edu,1999-08-22,Mathematics
+S2024003,Bob,Johnson,bob.johnson@college.edu,2001-02-10,Physics
+S2024004,Alice,Brown,alice.brown@college.edu,2000-11-30,Computer Science
+S2024005,Charlie,Wilson,charlie.wilson@college.edu,2000-07-18,Engineering
+S2024006,Diana,Davis,diana.davis@college.edu,1999-12-05,Mathematics
+S2024007,Edward,Garcia,edward.garcia@college.edu,2001-01-25,Physics
+S2024008,Fiona,Martinez,fiona.martinez@college.edu,2000-09-14,Business
+S2024009,George,Anderson,george.anderson@college.edu,2000-03-08,Computer Science
+S2024010,Helen,Taylor,helen.taylor@college.edu,1999-06-20,Engineering

@@ -2,7 +2,7 @@
 
 A comprehensive Java SE console application for managing campus courses and student records. This project demonstrates advanced Java programming concepts, design patterns, and best practices.
 
-## 🎯 Project Overview
+## Project Overview
 
 The Campus Course & Records Manager (CCRM) is a complete academic management system that handles:
 
@@ -14,7 +14,7 @@ The Campus Course & Records Manager (CCRM) is a complete academic management sys
 - **Backup & Restore** - Comprehensive data protection and recovery
 - **Reports & Analytics** - Statistical analysis and performance tracking
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -47,7 +47,7 @@ java -ea -Dccrm.config.file=config/custom.properties Main
 2. Default configuration file is created at `config/app.properties`
 3. Sample data can be imported from the `data/samples/` directory
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 CCRMProject/
@@ -95,7 +95,7 @@ CCRMProject/
     └── USAGE.md
 ```
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Design Patterns Implemented
 
@@ -159,7 +159,7 @@ CCRMProject/
 | **Recursion** | Directory operations | RecursiveUtils.java |
 | **Static/Final** | Utility classes | Validators.java, Comparators.java |
 
-## 🏛️ Java Architecture Overview
+## Java Architecture Overview
 
 ### Java Evolution Timeline
 
@@ -169,24 +169,6 @@ CCRMProject/
 | Java 11 | 2018 | String methods, Files API | Enhanced file operations |
 | Java 17 | 2021 | Sealed classes, Records | Modern Java practices |
 
-### JDK vs JRE vs JVM
-
-```
-┌─────────────────────────────────────┐
-│              JDK                    │  Development Kit
-│  ┌─────────────────────────────────┐│  • javac (compiler)
-│  │            JRE                  ││  • jar, javadoc
-│  │  ┌─────────────────────────────┐││  • Development tools
-│  │  │          JVM                │││
-│  │  │  • Class Loader             │││  Runtime Environment
-│  │  │  • Bytecode Interpreter     │││  • Class libraries
-│  │  │  • Just-In-Time Compiler    │││  • Runtime support
-│  │  │  • Garbage Collector        │││
-│  │  │  • Memory Management        │││  Virtual Machine
-│  │  └─────────────────────────────┘││  • Executes bytecode
-│  └─────────────────────────────────┘│  • Platform abstraction
-└─────────────────────────────────────┘
-```
 
 ### Java ME vs SE vs EE Comparison
 
@@ -196,7 +178,7 @@ CCRMProject/
 | **Java SE** | Standard Edition | Desktop applications, standalone programs | ✅ **Used in CCRM** |
 | **Java EE** | Enterprise Edition | Web applications, enterprise servers | Future enhancement opportunity |
 
-## 💻 Windows Installation Guide
+## Windows Installation Guide
 
 ### Step 1: Download Java JDK
 
@@ -204,7 +186,6 @@ CCRMProject/
 2. Download JDK 11 or higher for Windows (x64)
 3. Run the installer with administrator privileges
 
-*[Screenshot placeholder: JDK download page]*
 
 ### Step 2: Install JDK
 
@@ -212,7 +193,6 @@ CCRMProject/
 2. Note the installation path (typically `C:\Program Files\Java\jdk-11.x.x`)
 3. Complete the installation
 
-*[Screenshot placeholder: JDK installation wizard]*
 
 ### Step 3: Set Environment Variables
 
@@ -222,8 +202,6 @@ CCRMProject/
    - Value: `C:\Program Files\Java\jdk-11.x.x`
 3. Update **PATH** system variable:
    - Add: `%JAVA_HOME%\bin`
-
-*[Screenshot placeholder: Environment variables setup]*
 
 ### Step 4: Verify Installation
 
@@ -239,7 +217,6 @@ Java(TM) SE Runtime Environment (build 11.0.x+xx-LTS)
 Java HotSpot(TM) 64-Bit Server VM (build 11.0.x+xx-LTS, mixed mode)
 ```
 
-*[Screenshot placeholder: Command prompt verification]*
 
 ### Step 5: Run CCRM
 
@@ -249,7 +226,7 @@ javac -d . src/edu/ccrm/*/*.java src/edu/ccrm/*/*/*.java Main.java
 java -ea Main
 ```
 
-## 📊 Syllabus Mapping
+## Syllabus Mapping
 
 ### Core Java Concepts
 
@@ -274,7 +251,7 @@ java -ea Main
 | **Serialization** | Configuration | Object persistence concepts |
 | **Reflection** | Dynamic behavior | Runtime type inspection |
 
-## ⚡ Performance Considerations
+## Performance Considerations
 
 ### Memory Management
 - Efficient object creation and reuse
@@ -291,7 +268,7 @@ java -ea Main
 - Indexed access patterns for frequent lookups
 - Stream parallel processing for large datasets
 
-## 🛠️ Development Features
+## Development Features
 
 ### Enabling Assertions
 ```bash
@@ -321,7 +298,7 @@ app.debug.enabled=false
 backup.retention.days=30
 ```
 
-## 🔍 Testing & Validation
+## Testing & Validation
 
 ### Input Validation
 - Student ID format: `S1234567`
@@ -341,7 +318,7 @@ backup.retention.days=30
 - Comprehensive logging for debugging
 - Recovery mechanisms for data corruption
 
-## 📚 Educational Value
+## Educational Value
 
 This project serves as a comprehensive demonstration of:
 
@@ -351,7 +328,7 @@ This project serves as a comprehensive demonstration of:
 4. **Advanced Java Features** - Modern Java capabilities and idioms
 5. **System Architecture** - Layered architecture with clear boundaries
 
-## 🤝 Contributing
+## Contributing
 
 To extend or modify the CCRM system:
 
@@ -360,12 +337,5 @@ To extend or modify the CCRM system:
 3. Add comprehensive exception handling
 4. Include unit tests for new features
 5. Update documentation accordingly
-
-## 📄 License
-
-This project is developed for educational purposes and demonstrates comprehensive Java programming concepts for academic learning.
-
----
-
-**Campus Course & Records Manager v1.0**  
+Campus Course & Records Manager v1.0**  
 *A comprehensive Java SE application demonstrating advanced programming concepts*
